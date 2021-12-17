@@ -1,0 +1,81 @@
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 0.7rem;
+    padding: 0px 7px;
+}
+#navbar::before{
+    width: 104%;
+}
+
+#about{
+    /* height: 1139px; */
+    height: auto;
+    padding: 3px 45px;
+}
+#about p{
+    font-size: 1.2rem;
+}
+
+#client-section{
+    /* height: 1018px; */
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 170px;
+    padding: 2px 6px;
+    height: auto;
+}
+.client-item{
+    padding: 22px;
+}
+#slider figure img{
+    width: 20.1%;
+}
+#slider figure{
+    width: 494%;
+}
+
+#contact-box form{
+    width: 63%;
+}
+#contact-box input,
+#contact-box textarea{
+   
+    padding: 0.3rem;
+    border-radius: 7px;
+    font-size: 0.5rem;
+   
+}
+
+#slider figure img{
+    height: 350px;
+}
+
+.button .btn{
+    width: 50%;
+}
+
+.h-primary{
+    font-size: 1.8rem;
+   
+   
+}
+
+.container{
+width: auto;
+height: auto;
+flex-wrap: wrap;
+overflow: hidden;
+
+
+}
+
+.box{
+    padding-left: 0px;
+    overflow: hidden;
+    /* width: 152px; */
+}

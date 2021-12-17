@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hover</title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1032px)" href="phone.css">
+</head>
+<style>
+    .box {
+        /* border: 1px solid #000; */
+        width: 356px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        padding-left: 5px;
+        border: 2px solid black;
+        margin: 5px 5px;
+    }
+
+    .box img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        color: #fff;
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 0;
+
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: all 0.7s;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 25px;
+      
+
+    }
+
+    .content p {
+        padding: 10px;
+
+    }
+
+    .content h3 {
+        padding: 10px;
+    }
+
+    .box:hover .content {
+        left: 0;
+
+    }
+
+    .container {
+        display: flex;
+        width: 1500px;
+        flex-wrap: wrap;
+        
+        padding-left: 15px;
+    }
+
+    .red {
+        color: red;
+    }
+
+   .other{
+       border: 2px solid black;
+       border-radius: 28px;
+       height: 270px;
+       width: 275px;
+       margin: 24px;
+       padding-top: 13px;
+       padding-left: 13px;
+       font-size: 20px;
+   }
+
+  .boxxx{
+      display: flex;
+      flex-wrap: wrap;
+     
+    margin: 20px 4px;
+    padding: 34px;
+    border-radius: 28px;
+    
+    margin-bottom: 20px;
+  }
+
+  
+</style>
+
+
+<body>
+
+    <div class="container">
+        <div class="box">
+
+             <img src="img/manikchand1.jpg" alt="mabn">
+
+            <div class="content">
+                <h3>MANIKCHAND HSE.</h3>
+                <p>MANIKCHAND Dhariwal Industries Ltd</p>
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/manikchand2.jpg" alt="mabn">
+            <div class="content">
+                <h3>MANIKCHAND HSE.</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/manikchand3.jpg" alt="mabn">
+            <div class="content">
+                <h3>MANIKCHAND HSE.</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/tamilnadu1.jpg" alt="mabn">
+            <div class="content">
+                <h3>Tamilnadu</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/tamilnadu2.jpg" alt="mabn">
+            <div class="content">
+                <h3>Tamilnadu</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/tamilnadu3.jpg" alt="mabn">
+            <div class="content">
+                <h3>Tamilnadu</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/bkstextiles.jpg" alt="mabn">
+            <div class="content">
+                <h3>B.K.S.Textiles<br>Palladam,Tamilnadu</h3>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/Tamilnadu.jpg" alt="mabn">
+            <div class="content">
+                <h3>Palladam,Tamilnadu</h3>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/image3.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/image29.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Chakan Branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/ichalkaranji.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Ichalkaranji Branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/bunde.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Bundgarden Branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/ahmednagar.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Ahmednagar-Savedi Branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/camppune.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Camp branch Pune</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/wajrepune.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>wajre branch Pune</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/aurangabad.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Sillod branch Aurangabad</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/asc.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>ASC Ahamednagar branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/bibewadi.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Bibvewadi branch ,Pune</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/magarpatta.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Magarpatta branch ,Pune</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/navipeth.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Navi peth branch ,Pune</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/punemain1.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Pune main branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/punemain2.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Pune main branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/punemain3.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Pune main branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/urli.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Urli kanchan branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/fursungi.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Fursungi branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/bhuagoan.jpg" alt="mabn">
+            <div class="content">
+                <h3>Axis Bank</h3>
+                <p>Bhugaon branch ,pune</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/rblbank1.jpg" alt="mabn">
+            <div class="content">
+                <h3>RBL Bank</h3>
+                <p>Senapati Bapat Rd. branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/rblbank2.jpg" alt="mabn">
+            <div class="content">
+                <h3>RBL Bank</h3>
+                <p>Senapati Bapat Rd. branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/rblbank3.jpg" alt="mabn">
+            <div class="content">
+                <h3>RBL Bank</h3>
+                <p>Senapati Bapat Rd. branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/reliancemoneyamravati.jpg" alt="mabn">
+            <div class="content">
+                <h3>Reliance Money</h3>
+                <p>Amravati branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/reliancemoneyjalgoan.jpg" alt="mabn">
+            <div class="content">
+                <h3>Reliance Money</h3>
+                <p>Jalgaon branch</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/wanowari.jpg" alt="mabn">
+            <div class="content">
+                <h3>Reliance Money</h3>
+                <p>Waanowari branch, Pune</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/bjn.jpg" alt="mabn">
+            <div class="content">
+                <h3>BJN Group</h3>
+                <p>Restaurent Firangi Pani ,Chembur Mumbai</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/agio1.jpg" alt="mabn">
+            <div class="content">
+                <h3>AGIO Pharmaceuticals Ltd.</h3>
+                <p></p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/agio2.jpg" alt="mabn">
+            <div class="content">
+                <h3>AGIO Pharmaceuticals Ltd.</h3>
+                <p></p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/yashraj1.jpg" alt="mabn">
+            <div class="content">
+                <h3>AGIO Pharmaceuticals Ltd.</h3>
+                <p></p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/yashraj2.jpg" alt="mabn">
+            <div class="content">
+                <h3>AGIO Pharmaceuticals Ltd.</h3>
+                <p></p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/image60.jpg" alt="mabn">
+            <div class="content">
+                <h3>Yashraj Builder</h3>
+                <p>Reciption Area</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/yashraj3.jpg" alt="mabn">
+            <div class="content">
+                <h3>Yashraj Builder</h3>
+                <p>Conference Room</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <img src="img/yashraj4.jpg" alt="mabn">
+            <div class="content">
+                <h3>Yashraj Builder</h3>
+                <p>Owenr's Cabin</p>
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+     <!-- <div>
+        <h1 class="center ">OTHER WORK DONE IN VARIOUS PLACES</h1>
+        <div class="boxxx">
+
+            <div class="other">
+                <p>Furnishing work for <strong class="red">Tata Share Registry Ltd.</strong> at Army Navy Bldg.<br>
+
+                    Mumbai.<br>
+
+                    Area 2200 sft,(Value approx. Rs. 25,50,000/-)<br>
+
+                    Jan. 2000 To Apr. 2000.
+                </p>
+            </div>
+
+            <div class="other ">
+                <p>Furnishing & Civil work of <strong class="red"> Brasserie Restaurant</strong><br>
+
+                    Boat Club, Dhole Patil Road, Pune .<br>
+
+                    Area 2700 sft, (Value approx. Rs. 74,25,000/-)<br>
+
+                    Aug. 2000 To Dec. 2000.
+                </p>
+            </div>
+
+            <div class="other">
+                <p>Carpentary & Masonry work of <strong class="red"> Bhimgi Zaveri & sons</strong>,<br>
+
+                    Showroom at Nirmal Lifestyles, L.B. S. Marg, Mulund, Mumbai.<br>
+
+                    Area 1200 sft, (Value approx. Rs. 28,85,000/-)<br>
+
+                    May. 2003 To Nov. 2003.
+
+                </p>
+            </div>
+
+            <div class="other ">
+                <p> Civil Masonry & Furnishing work of<br> <strong class="red"> Dishti Industries Ltd.</strong><br>
+
+                    Khed – Shivapur, Pune.<br>
+
+                    Area 10000 sft, (Value approx. Rs. 86,50,000/-)<br>
+
+                    Mar. 2004 To Jul. 2004.
+
+                </p>
+            </div>
+
+            <div class="other">
+                <p>Civil Masonry & Furnishing work for actor <strong class="red"> Anil Kapoor’s bungalow </strong><br>
+
+                    JVPD scheme Juhu, Mumbai.<br>
+
+                    Area 800 sft, (Value approx. Rs. 48,50,000/-)<br>
+
+                    Dec. 2004 To Mar. 2005<br>
+
+
+                </p>
+            </div>
+
+            <div class="other ">
+                <p>Total turn-key projects done for Madura Garments<br>
+
+                    <strong class="red"> England showroom</strong>, S.V.Rd, Andheri(west)<br>
+
+                    and Lokhandwala complex Andheri respectively.<br>
+
+                    Area 400 sft,(Value approx. Rs. 10,00,000/-) and <br>
+
+                    Area 350 sft, ,(Value approx. Rs. 8,50,000/-)<br>
+
+                    Sept. 2005 To Oct. 2005.
+
+                </p>
+            </div>
+            <div class="other ">
+               <h2> Axis bank – Ambegaon branch Pune</h2><br>
+
+                    <p>( Value approx. Rs. 18,00,000/- ) <br>    
+            
+                 Project  was completed in 37 days
+            </p>
+            </div>
+            <div class="other ">
+               <h2> Axis bank – Navi peth branch ,Pune</h2><br>
+
+                <p>( Value approx. Rs. 18,00,000/- )<br>
+
+                 Project  was completed in 42 days.
+                </p>
+            </div>
+            <div class="other ">
+                <h2> Axis bank – Shrigonda branch </h2><br>
+ 
+                 <p>( Value approx. Rs. 14,00,000/- )<br>
+ 
+                  Project  was completed in 40 days.
+                 </p>
+             </div>
+             <div class="other ">
+                <h2> Axis bank – Dhanori  branch</h2><br>
+ 
+                 <p>( Value approx. Rs. 19,00,000/- )<br>
+ 
+                  Project  was completed in 42 days.
+                 </p>
+             </div>
+             <div class="other ">
+                <h2> Axis bank – Navelim  branch, Goa</h2><br>
+ 
+                 <p>( Value approx. Rs. 13,00,000/- )<br>
+ 
+                  Project  was completed in 35 days.
+                 </p>
+             </div>
+             <div class="other ">
+                <h2> Axis bank – Nashik branch </h2><br>
+ 
+                 <p>( Value approx. Rs. 16,00,000/- ) <br>
+ 
+                  Project  was completed in 40 days.
+                 </p>
+             </div>
+             
+        </div>
+        <h1 class="center"> Standard Chartered Bank Recent Turn key projects</h1>
+        <div class="boxxx">
+            <div class="other ">
+                <h2> Scb bank –Borivali  branch</h2><br>
+ 
+                 <p>( Value approx. Rs. 38,00,000/- ) <br>
+ 
+                  Project  was completed in 45 days.
+                 </p>
+             </div>
+        <div class="other ">
+            <h2>Scb bank –Jalgaon  branch </h2><br>
+
+             <p>( Value approx. Rs. 12,00,000/- ) <br>
+
+              Project  was completed in 35 days.
+             </p>
+         </div>
+         <div class="other ">
+            <h2> Scb bank – Thane  branch </h2><br>
+
+             <p>( Value approx. Rs. 40,00,000/- ) <br>
+
+              Project  was completed in 45 days.
+             </p>
+         </div>
+         <div class="other ">
+            <h2> Scb bank –  Kalyaninagar  branch </h2><br>
+
+             <p>( Value approx. Rs. 20,00,000/- )<br>
+
+              Project  was completed in 42 days.
+             </p>
+         </div>
+    </div>  -->
+
+
+</body>
+
+</html>
